@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "database-76": {
+      "hosting": {
+        "DB76": [
+          "database-76"
+        ]
+      }
+    }
+  }
+}

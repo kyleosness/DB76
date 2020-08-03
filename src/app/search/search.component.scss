@@ -1,0 +1,31 @@
+.form-container {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .form-input {
+    width: 100%;
+  }
+  
+  button{
+    width: 50%;
+  }
+  
+  .header{
+    text-align: center;
+  }
+  
+  .display{
+    display:  flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+  
+  .plans{
+    flex-basis: 20%;;
+  }

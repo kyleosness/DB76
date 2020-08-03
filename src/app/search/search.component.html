@@ -1,0 +1,22 @@
+<div class="form-container">
+    <h2 class="header">Find Any Item</h2>
+    <br>
+    <mat-form-field class="form-input">
+      <mat-label>Name</mat-label>
+      <input matInput #name>
+    </mat-form-field>
+    <button (click) ="search(name.value)" mat-raised-button color="accent">Search</button>
+    </div>
+  
+    <br>
+  
+  <!-- Div that will contain responses -->
+  <div class="display">
+    <!-- If Search Key has data -->
+    <!-- One media-display per response -->
+    <ng-container *ngIf="plans">
+        <div class="plans" *ngFor="let p of plans">
+            <app-display [plans]="p"></app-display>
+        </div>
+      </ng-container>
+  </div>
